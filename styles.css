@@ -1,0 +1,461 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'SoDo Sans',Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+header{
+    color: #32312d;;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+header{
+    font-size: 0.9rem;
+}
+header li{
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: #32312d;;
+}
+
+.menu-esquerdo a:hover{
+    color: #008248;
+}
+.logo{
+    width: 51px;
+    height: 51px;
+}
+.logo-direita{
+    width: 130px;
+    height: 47.28px;
+}
+
+.nav-container{
+    height: 110px;
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 40px;
+     box-shadow: 1px 7px 5px 0px rgba(184,179,179,0.75);
+    -webkit-box-shadow: 1px 7px 5px 0px rgba(184,179,179,0.75);
+    -moz-box-shadow: 1px 7px 5px 0px rgba(184,179,179,0.75);;
+}
+
+.nav-esquerda{
+    display: flex;
+}
+
+.menu-esquerdo{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.nav-direita{
+    display: flex;
+}
+
+.menu-direito{
+    align-items: center;
+    margin: 0px 0px 0px 239px ;
+    display: flex;
+    gap: 40px;
+    padding: 40px 0px;
+}
+.map-pin-bug{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.botao-entrar{
+    background: none;
+    border-width: 1px;
+    border-radius: 50px;
+    border-style: solid;
+    box-shadow: none;
+    font-family: 'SoDo Sans';
+    font-weight: 600;
+    line-height: 1.2;
+    padding: 7px 16px;
+    transition: all .2s ease;
+}
+.botao-entrar:hover{
+   scale:  0.90;
+   box-shadow: #32312d;
+   font-weight: bold;
+   font-size: 0.9rem;
+}
+
+.participe-agora{
+
+    border-width: 1px;
+    border-radius: 50px;
+    border-style: solid;
+    box-shadow: none;
+    font-family: 'SoDo Sans';
+    font-weight: 600;
+    line-height: 1.2;
+    padding: 7px 16px;
+    transition: all .2s ease;
+    background: rgba(0,0,0,.87) ;
+    border-color: rgba(0,0,0,.87);
+    
+}
+.participe-agora:hover{
+    scale: 0.90;
+}
+.participe-agora-text{
+
+    color: white;
+}
+.container-main{
+    
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#corpo{
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+#banner img{
+    position: absolute;
+    object-fit: cover;
+    opacity: 0;   
+    transition: opacity 1500ms;
+}
+
+#banner img.selecionada{
+    opacity: 1;
+}
+
+.container-meio{
+    
+    width: 100%;
+   
+    
+    margin-top:450px;
+    
+    
+}
+
+.box-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #d4e9e2;
+    height: 141px;
+    width: 100%;
+    padding: 15px 10px 20px 10px ; 
+
+}
+
+.box-1 p{
+    height: 63px;
+    width: 881px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #1e3932;
+    text-transform: lowercase;
+    font-size: medium;
+    font-weight: 10px;
+    
+    
+}
+.box-1 a {
+    margin-top: 15px;
+    text-decoration: none;
+    color: #1e3932;
+}
+
+.box-1 a:hover{
+    scale: 0.9;
+    box-shadow: -1px 3px 5px 0px rgba(117,111,111,0.75);
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(117,111,111,0.75);
+    -moz-box-shadow: -1px 3px 5px 0px rgba(117,111,111,0.75);
+}
+
+.saiba-mais{
+    font-size: 14px;
+    text-decoration: none;
+    border-width: 1px;
+    border-radius: 50px;
+    border-style: solid;
+    box-shadow: none;
+    font-family: 'SoDo Sans';
+    color: #1e3932;
+    font-weight: 600;
+    line-height: 1.2;
+    padding: 7px 16px;
+    transition: all .2s ease;
+}
+
+
+.container-copo{
+    
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    flex-direction: row;
+    
+    
+    background-color:#d4e9e2 ;
+
+}
+
+.caixa-copo{
+    display: flex;
+    background-color: black;
+}
+
+.texto-copo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 4.2rem;
+    gap: 70px;
+    
+}
+.caixa-text-copo{
+    display: flex;
+    align-items: center;
+}
+
+.texto-copo{
+    color: #1e3932;
+}
+
+.texto-copo p{
+    text-align: center;
+    
+    line-height: 30px;
+}
+
+.texto-copo a{
+    font-size: 14px;
+    text-decoration: none;
+    border-width: 1px;
+    border-radius: 50px;
+    border-style: solid;
+    box-shadow: none;
+    font-family: 'SoDo Sans';
+    color: #1e3932;
+    font-weight: 600;
+    line-height: 1.2;
+    padding: 7px 16px;
+    transition: all .2s ease;
+}
+
+.texto-copo a:hover{
+    scale: 0.90;
+    box-shadow: -1px 3px 5px 0px rgba(117,111,111,0.75);
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(117,111,111,0.75);
+    -moz-box-shadow: -1px 3px 5px 0px rgba(117,111,111,0.75);
+}
+
+.saboreie{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d4e9e2;
+    margin-top: 30px;
+}
+
+.sobreie-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-left:140px;
+    color: #1e3932;
+}
+
+.sobreie-texto a {
+    text-decoration: none;
+    color: #1e3932;
+    font-size: 14px;
+    text-decoration: none;
+    border-width: 1px;
+    border-radius: 50px;
+    border-style: solid;
+    box-shadow: none;
+    font-family: 'SoDo Sans';
+    
+    font-weight: 600;
+    line-height: 1.2;
+    padding: 7px 16px;
+    transition: all .2s ease;
+    
+}
+
+.sobreie-texto a:hover{
+    scale: 0.90;
+    box-shadow: -1px 3px 5px 0px rgba(117,111,111,0.75);
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(117,111,111,0.75);
+    -moz-box-shadow: -1px 3px 5px 0px rgba(117,111,111,0.75);
+}
+
+.sabi-foto img{
+    width: 720px;
+    height: 440px;
+}
+
+.esperanca-uniao{
+    margin-top: 30px;
+    background-color: #d4e9e2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.esperanca-foto img{
+    width: 720px;
+    height: 440px;
+}
+
+.esperanca-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    color: #1e3932;
+}
+
+.esperanca-texto p{
+    text-align: center;
+    padding: 0px 40px 0px 40px;
+}
+
+.esperanca-texto a{
+    text-decoration: none;
+    color: #1e3932;
+    font-size: 14px;
+    text-decoration: none;
+    border-width: 1px;
+    border-radius: 50px;
+    border-style: solid;
+    box-shadow: none;
+    font-family: 'SoDo Sans';
+    
+    font-weight: 600;
+    line-height: 1.2;
+    padding: 7px 16px;
+    transition: all .2s ease;;
+}
+
+.esperanca-texto a:hover{
+    scale: 0.90;
+    box-shadow: -1px 3px 5px 0px rgba(117,111,111,0.75);
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(117,111,111,0.75);
+    -moz-box-shadow: -1px 3px 5px 0px rgba(117,111,111,0.75);
+
+}
+
+.coisas-boas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #d4e9e2;
+}
+.coisas-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    color: #1e3932;
+    padding-left: 100px;
+
+}
+.coisas-texto p{
+    text-align: center;
+}
+.coisas-texto a{
+    text-decoration: none;
+    color: #1e3932;
+    font-size: 14px;
+    text-decoration: none;
+    border-width: 1px;
+    border-radius: 50px;
+    border-style: solid;
+    box-shadow: none;
+    font-family: 'SoDo Sans';
+    
+    font-weight: 600;
+    line-height: 1.2;
+    padding: 7px 16px;
+    transition: all .2s ease;;
+}
+
+.coisas-texto a:hover{
+    scale: 0.90;
+    box-shadow: -1px 3px 5px 0px rgba(117,111,111,0.75);
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(117,111,111,0.75);
+    -moz-box-shadow: -1px 3px 5px 0px rgba(117,111,111,0.75);
+}
+.coisa-foto img{
+    width: 720px;
+    height: 440px;
+}
+.aside-box{
+    border-top: solid 2px #6d6d6d;;
+    border-bottom:solid 2px #6d6d6d ;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.aside-box img{
+    width: 150px;
+}
+.aside-texto{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 90px ;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.aside-texto li{
+    list-style: none;
+    
+}
+.aside-texto a {
+    line-height: 40px;
+    text-decoration: none;
+    color: #6d6d6d;
+    font-weight: 100;    
+}
+
+.aside-texto a:hover{
+    color: black;
+}
+
+
+.caixa-footer{
+    
+    
+    height: 700px;
+    
+}
+.menu-footer{
+    display: flex;
+    gap: 30px;
+}
